@@ -2,7 +2,7 @@
 public class Addition{
   public static void main(String [] args){
       int x,y,s;
-      Scanner sc=new scanner(System.in);
+      Scanner sc=new Scanner(System.in);
       System.out.println("enter two numbers for addition");
       x=sc.nextInt();
       y=sc.nextInt();
