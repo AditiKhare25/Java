@@ -1,1 +1,12 @@
-
+//program to add two numbers taking input from user
+public class Addition{
+  public static void main(String [] args){
+      int x,y,s;
+      Scanner sc=new scanner(System.in);
+      System.out.println("enter two numbers for addition");
+      x=sc.nextInt();
+      y=sc.nextInt();
+      s=x+y;
+      System.out.println("The additon of x and y is:"+s);
+      }
+  }
